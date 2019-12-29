@@ -1,6 +1,6 @@
 {
-    "title" : "metadata",
-    "info" : {
+    "title" : "Metadata",
+    "information" : {
         "git_repo" : "https://github.com/dyazincahya/quran-api-with-php-codeigniter",
         "developer" : {
             "name" : "kang cahya",
