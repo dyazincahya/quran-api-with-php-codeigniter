@@ -43,7 +43,7 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-4">
+			<div class="col-5">
 				<h4>All API List :</h4>
 				<ol>
 					<li><a href="<?=site_url("juz");?>">Juz</a></li>
@@ -51,14 +51,19 @@
 						<ol>
 							<?php 
 								foreach ($surah as $k => $s) {
-									echo "<li><a href='". site_url("surah/find/".($k+1)) ."'>". $s->titleAr ." (". $s->title .")</a></li>";
+									if(strtoupper($s['type']) === "MADANIYAH"){
+										$surah_type = '<span class="badge badge-secondary">'. $s['type'] .'</span>';
+									} else {
+										$surah_type = '<span class="badge badge-warning">'. $s['type'] .'</span>';
+									}
+									echo "<li><a href='". site_url("surah/find/".($k+1)) ."'>". $s['titleAr'] ." (". $s['title'] .")</a> ". $surah_type ."</li>";
 								}
 							?>
 						</ol>
 					</li>
 				</ol>
 			</div>
-			<div class="col-8" align="right">
+			<div class="col-7" align="right">
 				<h3>API V1.0</h3>
 			</div>
 	</div>
