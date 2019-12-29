@@ -64,7 +64,7 @@
 				</ol>
 			</div>
 			<div class="col-7" align="right">
-				<h3>API V1.0</h3>
+				<h4>API V1.0</h4>
 			</div>
 	</div>
 	<hr />
