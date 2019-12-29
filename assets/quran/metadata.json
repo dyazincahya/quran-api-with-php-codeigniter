@@ -1,0 +1,31 @@
+{
+    "title" : "metadata",
+    "info" : {
+        "git_repo" : "https://github.com/dyazincahya/quran-api-with-php-codeigniter",
+        "developer" : {
+            "name" : "kang cahya",
+            "web_blog" : "https://www.kang-cahya.com/",
+            "github" : "https://github.com/dyazincahya"
+        },
+        "data_source" : {
+            "0" : "Kementrian Agama RI",
+            "1" : "https://github.com/k4ng-fork/quran-json",
+            "2" : "https://github.com/k4ng-fork/quranjson"
+        }
+    },
+    "changelog" : {
+        "versions" : {
+            "v1.0" : {
+                "features" : {
+                    "0" : "6236 verses",
+                    "1" : "114 surah",
+                    "2" : "30 Juz",
+                    "3" : "Translations 3 language (Bahasa, english, arabic)",
+                    "4" : "Interpretation in Bahasa"
+                },
+                "release_date" : "2019-12-30",
+                "version_text" : "API v1.0"
+            }
+        }
+    }
+}
