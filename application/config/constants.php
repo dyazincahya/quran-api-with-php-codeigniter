@@ -90,3 +90,4 @@ defined('Q_DEFAULT')           OR define('Q_DEFAULT', "assets/quran/other/");
 defined('Q_KEMENAG')           OR define('Q_KEMENAG', "assets/quran/kemenag/");
 defined('THEME')               OR define('THEME', "assets/bootstrap/");
 defined('IMAGES')              OR define('IMAGES', "assets/images/");
+defined('VERSION')             OR define('VERSION', "V1.0");

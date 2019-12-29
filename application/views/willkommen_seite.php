@@ -64,7 +64,7 @@
 				</ol>
 			</div>
 			<div class="col-7" align="right">
-				<h4>API V1.0</h4>
+				<h4>Current Version <?=VERSION;?></h4>
 			</div>
 	</div>
 	<hr />
