@@ -89,3 +89,4 @@ defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest auto
 defined('Q_DEFAULT')           OR define('Q_DEFAULT', "assets/quran/other/");
 defined('Q_KEMENAG')           OR define('Q_KEMENAG', "assets/quran/kemenag/");
 defined('THEME')               OR define('THEME', "assets/bootstrap/");
+defined('IMAGES')              OR define('IMAGES', "assets/images/");

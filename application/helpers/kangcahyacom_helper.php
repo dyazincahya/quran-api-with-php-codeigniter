@@ -1,5 +1,39 @@
 <?php
-    function get_surah_by_id($numb=1, $return_type="json")
+    function get_juz($return_type="json"){
+        header('Content-type: text/html; charset=utf-8');
+
+        $data = json_decode(file_get_contents(base_url(Q_DEFAULT."juz.json")), true);
+        $response = [
+            "success" => true,
+            "message" => "Succesfully",
+            "data"  => $data
+        ];
+
+        if($return_type === "json"){
+            return json_encode($response, JSON_UNESCAPED_UNICODE);
+        } else {
+            return $response;
+        }
+    }
+
+    function get_surah($return_type="json"){
+        header('Content-type: text/html; charset=utf-8');
+
+        $data = json_decode(file_get_contents(base_url(Q_DEFAULT."surah.json")), true);
+        $response = [
+            "success" => true,
+            "message" => "Succesfully",
+            "data"  => $data
+        ];
+
+        if($return_type === "json"){
+            return json_encode($response, JSON_UNESCAPED_UNICODE);
+        } else {
+            return $response;
+        }
+    }
+
+    function get_surah_verse($numb=1, $return_type="json")
     {
         header('Content-type: text/html; charset=utf-8');
 
@@ -46,9 +80,6 @@
                 $data['interpretation']['ar']['verse']['verse_'.($intp_key_id)] = "No Interpretation!";
                 $data['interpretation']['en']['verse']['verse_'.($intp_key_id)] = "No Interpretation!";
             }
-
-            
-
 
             $response = [
                 "success" => true,

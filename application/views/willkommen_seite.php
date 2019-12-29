@@ -4,7 +4,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>HOLY QURAN - API V1.0</title>
+	<title>HOLY QURAN - API V1.0 - BY KANG-CAHYA.COM</title>
+	<link rel="shortcut icon" href="<?=base_url(IMAGES."icon/default.png");?>">
 	<link rel="stylesheet" href="<?=base_url(THEME."css/bootstrap.min.css");?>">
 	<link rel="stylesheet" href="<?=base_url(THEME."css/sticky-footer-navbar.css");?>">
 	<style>
@@ -23,7 +24,7 @@
 <body>
 	<div class="container">
 		<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-			<h1 class="display-4">HOLY QURAN - API V1.0</h1>
+			<h1 class="display-4"><img src="<?=base_url(IMAGES."icon/default.png");?>" height="75" alt="Logo Icon"/> HOLY QURAN - API V1.0</h1>
 			<div class="btn-toolbar mb-2 mb-md-0">
 				<div class="row">
 					<div class="col-3">
@@ -42,7 +43,7 @@
 			<div class="col-4">
 				<h4>All API List :</h4>
 				<ol>
-					<li><a href="#">Juz</a></li>
+					<li><a href="<?=site_url("juz");?>">Juz</a></li>
 					<li><a href="<?=site_url("surah");?>">Surah</a>
 						<ol>
 							<?php 
@@ -54,10 +55,11 @@
 					</li>
 				</ol>
 			</div>
-			<div class="col-8">
+			<div class="col-8" align="right">
+				<h3>API V1.0</h3>
 			</div>
 	</div>
-
+	<hr />
 	<footer class="container">
 		<p class="float-right"><a href="#">Back to top</a></p>
 		<p>© 2013-<?=date("Y");?> <a href="https://www.kang-cahya.com/" rel="dofollow">Kang-cahya.com</a></p>
