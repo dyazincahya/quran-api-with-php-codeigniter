@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="description" content="Holy Quran API, 6236 verses, 114 surah, 30 Juz. Build with PHP 7.3.11 and Codeigniter.1.11"/>
 	<title>HOLY QURAN API - BY KANG-CAHYA.COM</title>
 	<link rel="shortcut icon" href="<?=base_url(IMAGES."icon/default.png");?>">
 	<link rel="stylesheet" href="<?=base_url(THEME."css/bootstrap.min.css");?>">
