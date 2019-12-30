@@ -1,2 +1,23 @@
-# quran-api-with-php-codeigniter
-Holy Quran API With PHP Codeigniter 3.1.11
+# Quran API With PHP Codeigniter
+Holy Quran API ```6236 verses, 114 surah, 30 Juz```
+
+![screenshot](https://github.com/dyazincahya/quran-api-with-php-codeigniter/blob/master/screenshot/1.png)
+
+### Features
+- API Juz
+- API Surah
+- API Verse
+- Translations (Bahasa, English, Arabic)
+- Interpretation (Bahasa)
+
+### Data Source
+- [Ministry of Religion of the Republic of Indonesia](https://quran.kemenag.go.id/)
+- [github.com/semarketir/quranjson](https://github.com/semarketir/quranjson)
+
+### Build With
+- [PHP-7](https://www.php.net/)
+- [Codeigniter 3.1.11](https://codeigniter.com/)
+- [Bootstrap 4.4.1](https://getbootstrap.com/)
+
+
+
