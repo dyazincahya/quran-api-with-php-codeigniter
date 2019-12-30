@@ -18,6 +18,7 @@
 - [PHP-7](https://www.php.net/)
 - [Codeigniter 3.1.11](https://codeigniter.com/)
 - [Bootstrap 4.4.1](https://getbootstrap.com/)
+- [JSON Viewer](https://github.com/abodelot/jquery.json-viewer)
 
 ### Instalation
 - Clone this repo ```git clone https://github.com/dyazincahya/quran-api-with-php-codeigniter.git```
