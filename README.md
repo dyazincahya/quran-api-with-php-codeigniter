@@ -27,7 +27,7 @@
 ### Instalation
 - Clone this repo ```git clone https://github.com/dyazincahya/quran-api-with-php-codeigniter.git```
 - Move this project to local hosting or server hosting
-- Done, try access this project in your browser
+- Done, try to access this project in your browser
 
 ### Author
 [kang-cahya.com](https://www.kang-cahya.com/)
