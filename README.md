@@ -1,5 +1,5 @@
-# Quran API With PHP Codeigniter
-Holy Quran API ```6236 verses, 114 surah, 30 Juz```
+# Holy Quran API
+```6236 verses, 114 surah, 30 Juz```
 
 ![screenshot](https://github.com/dyazincahya/quran-api-with-php-codeigniter/blob/master/screenshot/1.png)
 
@@ -19,5 +19,14 @@ Holy Quran API ```6236 verses, 114 surah, 30 Juz```
 - [Codeigniter 3.1.11](https://codeigniter.com/)
 - [Bootstrap 4.4.1](https://getbootstrap.com/)
 
+### Instalation
+- Clone this repo ```git clone https://github.com/dyazincahya/quran-api-with-php-codeigniter.git```
+- Move this project to local hosting or server hosting
+- Done, try access this project in your browser
 
+### Author
+[kang-cahya.com](https://www.kang-cahya.com/)
+
+### License
+[MIT License](https://github.com/dyazincahya/quran-api-with-php-codeigniter/blob/master/LICENSE)
 
