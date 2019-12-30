@@ -15,7 +15,7 @@
 - [github.com/semarketir/quranjson](https://github.com/semarketir/quranjson)
 
 ### Build With
-- [PHP-7](https://www.php.net/)
+- [PHP 7.3.11](https://www.php.net/)
 - [Codeigniter 3.1.11](https://codeigniter.com/)
 - [Jquery 3.4.1 slim](https://jquery.com/)
 - [Bootstrap 4.4.1](https://getbootstrap.com/)
