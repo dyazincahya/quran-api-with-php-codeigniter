@@ -3,8 +3,8 @@
 
 ![screenshot](https://github.com/dyazincahya/quran-api-with-php-codeigniter/blob/master/screenshot/1.png)
 
-### Online Demo
-[See demo here!!!](https://api.vuspicture.com/quran/)
+### Demo
+[See online demo here](https://api.vuspicture.com/quran/)
 
 ### Features
 - API Juz
