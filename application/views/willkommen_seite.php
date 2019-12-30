@@ -46,8 +46,8 @@
 			<div class="col-5">
 				<h4>All API List :</h4>
 				<ol>
-					<li><a href="<?=site_url("juz");?>">Juz</a></li>
-					<li><a href="<?=site_url("surah");?>">Surah</a>
+					<li><a href="<?=site_url("juz/viewer");?>">Juz</a></li>
+					<li><a href="<?=site_url("surah/viewer");?>">Surah</a>
 						<ol>
 							<?php 
 								foreach ($surah as $k => $s) {
@@ -56,7 +56,7 @@
 									} else {
 										$surah_type = '<span class="badge badge-warning">'. $s['type'] .'</span>';
 									}
-									echo "<li><a href='". site_url("surah/find/".($k+1)) ."'>". $s['titleAr'] ." (". $s['title'] .")</a> ". $surah_type ."</li>";
+									echo "<li><a href='". site_url("surah/viewer/".($k+1)) ."'>". $s['titleAr'] ." (". $s['title'] .")</a> ". $surah_type ."</li>";
 								}
 							?>
 						</ol>
@@ -66,6 +66,7 @@
 			<div class="col-7" align="right">
 				<h4>Current Version <?=VERSION;?></h4>
 			</div>
+		</div>
 	</div>
 	<hr />
 	<footer class="container">
@@ -78,14 +79,14 @@
 	<script src="<?=base_url(THEME."js/bootstrap.min.js");?>"></script>
 
 	<script>
-	$(document).ready(function(){
-		$("#filter-api").on("keyup", function() {
-			var value = $(this).val().toLowerCase();
-			$("ol > li").filter(function() {
-			$(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+		$(document).ready(function(){
+			$("#filter-api").on("keyup", function() {
+				var value = $(this).val().toLowerCase();
+				$("ol > li").filter(function() {
+				$(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+				});
 			});
 		});
-	});
 	</script>
 </body>
 </html>

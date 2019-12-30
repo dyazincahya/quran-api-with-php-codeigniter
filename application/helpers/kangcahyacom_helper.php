@@ -54,7 +54,12 @@
             $data['index'] = $default['index'];
             $data['name'] = $default['name'];
             $data['name_arabic'] = $kemenag['name'];
-            $data['verse'] = $default['verse'];       
+
+            // $data['verse'] = $default['verse'];    
+            foreach ($kemenag['text'] as $verse_key => $verse_val) {
+                $data['verse']['verse_'.($verse_key)] = $verse_val;
+            }
+
             $data['count'] = $default['count'];
             $data['number_of_ayah'] = $kemenag['number_of_ayah'];
             $data['juz'] = $default['juz'];

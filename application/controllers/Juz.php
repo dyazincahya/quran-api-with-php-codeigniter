@@ -9,15 +9,17 @@ class Juz extends CI_Controller {
 
 	public function index()
 	{
-        header('Content-type: text/html; charset=utf-8');
-        $data = base_url(Q_DEFAULT."juz.json");
-        $to_array = json_decode(file_get_contents($data));
-        $response = [
-            "success" => true,
-            "message" => "Succesfully",
-            "data"  => $to_array
-        ];
-        
-        echo json_encode($response, JSON_UNESCAPED_UNICODE);
+        echo get_juz();
+        exit();
     }
+
+    public function viewer($numb=null)
+	{
+        $data = [];
+        $data['url'] = site_url("juz");
+        $data['json'] = get_juz();
+        $data['json_collapsed'] = "false";
+		
+		$this->load->view('viewer', $data);
+	}
 }
