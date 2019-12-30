@@ -19,7 +19,7 @@
 - [Codeigniter 3.1.11](https://codeigniter.com/)
 - [Jquery 3.4.1 slim](https://jquery.com/)
 - [Bootstrap 4.4.1](https://getbootstrap.com/)
-- [JSON Viewer](https://github.com/abodelot/jquery.json-viewer)
+- [JSON Viewer 1.4.0](https://github.com/abodelot/jquery.json-viewer)
 
 ### Instalation
 - Clone this repo ```git clone https://github.com/dyazincahya/quran-api-with-php-codeigniter.git```
