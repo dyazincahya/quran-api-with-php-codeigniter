@@ -1,37 +1,37 @@
-## Welcome to GitHub Pages
+# Holy Quran API
+```6236 verses, 114 surah, 30 Juz```
 
-You can use the [editor on GitHub](https://github.com/dyazincahya/quran-api-with-php-codeigniter/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+![screenshot](https://github.com/dyazincahya/quran-api-with-php-codeigniter/raw/master/screenshot/1.png)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Demo
+[See online demo here](https://api.vuspicture.com/quran/)
 
-### Markdown
+### Features
+- API Juz
+- API Surah
+- API Verse
+- Translations (Bahasa, English, Arabic)
+- Interpretation (Bahasa)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Data Source
+- [Ministry of Religion of the Republic of Indonesia](https://quran.kemenag.go.id/)
+- [github.com/semarketir/quranjson](https://github.com/semarketir/quranjson)
 
-```markdown
-Syntax highlighted code block
+### Build With
+- [PHP 7.3.11](https://www.php.net/)
+- [Codeigniter 3.1.11](https://codeigniter.com/)
+- [Jquery 3.4.1 slim](https://jquery.com/)
+- [Bootstrap 4.4.1](https://getbootstrap.com/)
+- [JSON Viewer 1.4.0](https://github.com/abodelot/jquery.json-viewer)
 
-# Header 1
-## Header 2
-### Header 3
+### Instalation
+- Clone this repo ```git clone https://github.com/dyazincahya/quran-api-with-php-codeigniter.git```
+- Move this project to local hosting or server hosting
+- Done, try to access this project in your browser
 
-- Bulleted
-- List
+### Author
+[kang-cahya.com](https://www.kang-cahya.com/)
 
-1. Numbered
-2. List
+### License
+[MIT License](https://github.com/dyazincahya/quran-api-with-php-codeigniter/blob/master/LICENSE)
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dyazincahya/quran-api-with-php-codeigniter/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
