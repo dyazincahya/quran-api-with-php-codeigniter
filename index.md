@@ -1,7 +1,7 @@
 # Holy Quran API
 ```6236 verses, 114 surah, 30 Juz```
 
-![screenshot](https://github.com/dyazincahya/quran-api-with-php-codeigniter/blob/master/screenshot/1.png)
+![screenshot](https://github.com/dyazincahya/quran-api-with-php-codeigniter/raw/master/screenshot/1.png)
 
 ### Demo
 [See online demo here](https://demo.kang-cahya.web.id/quran-api/)
