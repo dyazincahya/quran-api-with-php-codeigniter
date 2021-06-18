@@ -6,6 +6,9 @@
 ### Demo
 [See online demo here](https://demo.kang-cahya.web.id/quran-api/)
 
+### Online API by heroku
+[See online api here](https://api-quran-id.herokuapp.com/)
+
 ### Features
 - API Juz
 - API Surah
