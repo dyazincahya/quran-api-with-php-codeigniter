@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 
-$config['base_url'] = "https://api-quran-id.herokuapp.com/"
+$config['base_url'] = "https://api-quran-id.herokuapp.com/";
 
 /*
 |--------------------------------------------------------------------------
