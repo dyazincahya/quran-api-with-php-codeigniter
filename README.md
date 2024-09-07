@@ -2,7 +2,7 @@
 
 `6236 verses, 114 surah, 30 Juz`
 
-![screenshot](https://github.com/dyazincahya/quran-api-with-php-codeigniter/blob/master/screenshot/home.png)
+![screenshot](https://github.com/dyazincahya/quran-api-with-php-codeigniter/blob/master/screenshot/homepage.png)
 
 ### Demo
 
