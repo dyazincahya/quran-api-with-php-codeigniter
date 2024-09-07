@@ -2,7 +2,7 @@
 
 `6236 verses, 114 surah, 30 Juz`
 
-![screenshot](https://github.com/dyazincahya/quran-api-with-php-codeigniter/blob/master/screenshot/homepage.png)
+![screenshot](https://github.com/dyazincahya/quran-api-with-php-codeigniter/blob/master/screenshot/homepage2.1.png)
 
 ### Demo
 
@@ -24,7 +24,7 @@
 ### Build With
 
 - [PHP 8.2.12](https://www.php.net/)
-- [Codeigniter 4.5.4](https://codeigniter.com/)
+- [Codeigniter 4.5.5](https://codeigniter.com/)
 - [Jquery 3.4.1 slim](https://jquery.com/)
 - [Bootstrap 4.4.1](https://getbootstrap.com/)
 - [JSON Viewer 1.4.0](https://github.com/abodelot/jquery.json-viewer)
