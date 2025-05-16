@@ -18,6 +18,12 @@
 - [Ministry of Religion of the Republic of Indonesia](https://quran.kemenag.go.id/)
 - [github.com/semarketir/quranjson](https://github.com/semarketir/quranjson)
 
+### Quran Data Fetch Script
+If you need to retrieve the latest Quran data from **Kementrian Agama Republik Indonesia**, you can use the following PHP-based fetch script:
+
+🔗 [https://github.com/dyazincahya/quran-json-kemenag](https://github.com/dyazincahya/quran-json-kemenag)
+> This script allows you to fetch and convert Quran data into JSON format by accessing the official source. It is written in PHP and is easy to use for data integration, development, or research purposes.
+
 ### Build With
 - [PHP 8.2.12](https://www.php.net/)
 - [Codeigniter 4.5.5](https://codeigniter.com/)
