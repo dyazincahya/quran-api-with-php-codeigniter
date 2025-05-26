@@ -55,17 +55,26 @@ abstract class BaseController extends Controller
 
         // Pastikan hanya dijalankan di mode non-CLI
         if (php_sapi_name() !== 'cli' && isset($_SERVER['HTTP_HOST'])) {
-            $scheme = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http';
+            $isSecure = false;
+
+            if (
+                (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ||
+                (isset($_SERVER['SERVER_PORT']) && $_SERVER['SERVER_PORT'] == 443)
+            ) {
+                $isSecure = true;
+            }
+
+            $scheme = $isSecure ? 'https' : 'http';
             $host   = $_SERVER['HTTP_HOST'];
             $script = $_SERVER['SCRIPT_NAME'];
             $path   = rtrim(str_replace(basename($script), '', $script), '/');
 
             $dynamicBaseURL = $scheme . '://' . $host . $path . '/';
 
-            // Buat instance konfigurasi App, lalu ubah baseURL-nya
-            $config = config(App::class);
+            $config = config(\Config\App::class);
             $config->baseURL = $dynamicBaseURL;
         }
+
 
         // Preload any models, libraries, etc, here.
 
