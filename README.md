@@ -46,6 +46,9 @@ If you are using `PHP 7`, you can use `v1` based on `Codeigniter 3`, and if you 
 ```env
 # Set false if you want to disable Demo Mode.
 API_DEMO = true
+
+# Set & Adjust baseURL
+app.baseURL = ''
 ```
 
 - Done, try to access `http://localhost/PROJECT_NAME` in your browser
