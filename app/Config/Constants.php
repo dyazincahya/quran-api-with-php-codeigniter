@@ -78,20 +78,6 @@ defined('EXIT_DATABASE')       || define('EXIT_DATABASE', 8);       // database 
 defined('EXIT__AUTO_MIN')      || define('EXIT__AUTO_MIN', 9);      // lowest automatically-assigned error code
 defined('EXIT__AUTO_MAX')      || define('EXIT__AUTO_MAX', 125);    // highest automatically-assigned error code
 
-/**
- * @deprecated Use \CodeIgniter\Events\Events::PRIORITY_LOW instead.
- */
-define('EVENT_PRIORITY_LOW', 200);
-
-/**
- * @deprecated Use \CodeIgniter\Events\Events::PRIORITY_NORMAL instead.
- */
-define('EVENT_PRIORITY_NORMAL', 100);
-
-/**
- * @deprecated Use \CodeIgniter\Events\Events::PRIORITY_HIGH instead.
- */
-define('EVENT_PRIORITY_HIGH', 10);
 
 //COSTUME CONSTANTA BY KANG-CAHYA.COM
 defined('Q_DEFAULT')           || define('Q_DEFAULT', "public/assets/quran/other/");

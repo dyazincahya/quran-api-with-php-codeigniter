@@ -23,7 +23,7 @@ class Juz extends BaseController
 		} else {
 			// Cek nilai API_DEMO dari file .env
 			$apiDemo = getenv('API_DEMO');
-			if ($apiDemo === 'true') {
+			if ($apiDemo === false || $apiDemo === 'true') {
 				echo json_encode([
 					'status' => 'Demo Mode',
 					'endpoint' => site_url('juz'),
