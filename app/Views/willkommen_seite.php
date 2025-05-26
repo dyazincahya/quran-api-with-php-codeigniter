@@ -7,9 +7,9 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<meta name="description" content="Holy Quran API, 6236 verses, 114 surah, 30 Juz. Build with PHP 7.3.11 and Codeigniter.1.11" />
 	<title>HOLY QURAN API - BY KANG-CAHYA.COM</title>
-	<link rel="shortcut icon" href="<?= clear_base_url(IMAGES . "icon/default.png"); ?>">
-	<link rel="stylesheet" href="<?= clear_base_url(THEME . "css/bootstrap.min.css"); ?>">
-	<link rel="stylesheet" href="<?= clear_base_url(THEME . "css/sticky-footer-navbar.css"); ?>">
+	<link rel="shortcut icon" href="<?= base_url(IMAGES . "icon/default.png"); ?>">
+	<link rel="stylesheet" href="<?= base_url(THEME . "css/bootstrap.min.css"); ?>">
+	<link rel="stylesheet" href="<?= base_url(THEME . "css/sticky-footer-navbar.css"); ?>">
 	<style>
 		ol {
 			counter-reset: item;
@@ -30,7 +30,7 @@
 	<div class="container">
 		<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
 			<h1 class="display-4">
-				<img src="<?= clear_base_url(IMAGES . "icon/default.png"); ?>" height="75" alt="Logo Icon" />
+				<img src="<?= base_url(IMAGES . "icon/default.png"); ?>" height="75" alt="Logo Icon" />
 				HOLY QURAN API
 			</h1>
 			<div class="btn-toolbar mb-2 mb-md-0">
@@ -89,9 +89,9 @@
 		<p>© 2013-<?= date("Y"); ?> <a href="https://www.kang-cahya.com/" rel="dofollow">Kang-cahya.com</a></p>
 	</footer>
 
-	<script src="<?= clear_base_url(THEME . "js/jquery-3.4.1.slim.min.js"); ?>"></script>
-	<script src="<?= clear_base_url(THEME . "js/popper.min.js"); ?>"></script>
-	<script src="<?= clear_base_url(THEME . "js/bootstrap.min.js"); ?>"></script>
+	<script src="<?= base_url(THEME . "js/jquery-3.4.1.slim.min.js"); ?>"></script>
+	<script src="<?= base_url(THEME . "js/popper.min.js"); ?>"></script>
+	<script src="<?= base_url(THEME . "js/bootstrap.min.js"); ?>"></script>
 
 	<script>
 		$(document).ready(function() {

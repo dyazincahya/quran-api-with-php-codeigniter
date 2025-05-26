@@ -6,17 +6,17 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>HOLY QURAN API - BY KANG-CAHYA.COM</title>
-	<link rel="shortcut icon" href="<?= clear_base_url(IMAGES . "icon/default.png"); ?>">
-	<link rel="stylesheet" href="<?= clear_base_url(THEME . "css/bootstrap.min.css"); ?>">
-	<link rel="stylesheet" href="<?= clear_base_url(THEME . "css/sticky-footer-navbar.css"); ?>">
-	<link rel="stylesheet" href="<?= clear_base_url(THEME . "css/jquery.json-viewer.css"); ?>">
+	<link rel="shortcut icon" href="<?= base_url(IMAGES . "icon/default.png"); ?>">
+	<link rel="stylesheet" href="<?= base_url(THEME . "css/bootstrap.min.css"); ?>">
+	<link rel="stylesheet" href="<?= base_url(THEME . "css/sticky-footer-navbar.css"); ?>">
+	<link rel="stylesheet" href="<?= base_url(THEME . "css/jquery.json-viewer.css"); ?>">
 </head>
 
 <body>
 	<div class="container">
 		<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
 			<h1 class="display-4">
-				<img src="<?= clear_base_url(IMAGES . "icon/default.png"); ?>" height="75" alt="Logo Icon" />
+				<img src="<?= base_url(IMAGES . "icon/default.png"); ?>" height="75" alt="Logo Icon" />
 				HOLY QURAN API
 			</h1>
 			<div class="btn-toolbar mb-2 mb-md-0">
@@ -61,10 +61,10 @@
 		<p>© 2013-<?= date("Y"); ?> <a href="https://www.kang-cahya.com/" rel="dofollow">Kang-cahya.com</a></p>
 	</footer>
 
-	<script src="<?= clear_base_url(THEME . "js/jquery-3.4.1.slim.min.js"); ?>"></script>
-	<script src="<?= clear_base_url(THEME . "js/popper.min.js"); ?>"></script>
-	<script src="<?= clear_base_url(THEME . "js/bootstrap.min.js"); ?>"></script>
-	<script src="<?= clear_base_url(THEME . "js/jquery.json-viewer.js"); ?>"></script>
+	<script src="<?= base_url(THEME . "js/jquery-3.4.1.slim.min.js"); ?>"></script>
+	<script src="<?= base_url(THEME . "js/popper.min.js"); ?>"></script>
+	<script src="<?= base_url(THEME . "js/bootstrap.min.js"); ?>"></script>
+	<script src="<?= base_url(THEME . "js/jquery.json-viewer.js"); ?>"></script>
 
 	<script>
 		$(document).ready(function() {
