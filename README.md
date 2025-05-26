@@ -44,6 +44,7 @@ If you are using `PHP 7`, you can use `v1` based on `Codeigniter 3`, and if you 
 - Add new variable on `.env' file
 
 ```env
+# Set false if you want to disable Demo Mode.
 API_DEMO = true
 ```
 
