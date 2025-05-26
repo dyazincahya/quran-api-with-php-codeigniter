@@ -2,6 +2,11 @@
 
 use CodeIgniter\HTTP\ResponseInterface;
 
+function clear_base_url(string $url): string
+{
+    return FCPATH . $url;
+}
+
 function get_juz($return_type = "json")
 {
     // Set the header using the response service
@@ -9,7 +14,7 @@ function get_juz($return_type = "json")
     $response->setHeader('Content-Type', 'text/html; charset=utf-8');
 
     // Fetch data
-    $data = json_decode(file_get_contents(base_url(Q_DEFAULT . "juz.json")), true);
+    $data = json_decode(file_get_contents(clear_base_url(Q_DEFAULT . "juz.json")), true);
     $responseData = [
         "success" => true,
         "message" => "Successfully",
@@ -30,7 +35,7 @@ function get_surah($return_type = "json")
     $response->setHeader('Content-Type', 'text/html; charset=utf-8');
 
     // Fetch data
-    $data = json_decode(file_get_contents(base_url(Q_DEFAULT . "surah.json")), true);
+    $data = json_decode(file_get_contents(clear_base_url(Q_DEFAULT . "surah.json")), true);
     $responseData = [
         "success" => true,
         "message" => "Successfully",
@@ -58,11 +63,11 @@ function get_surah_verse($numb = 1, $return_type = "json")
 
     if (is_numeric($numb)) {
         // Fetch data from files
-        $default = json_decode(file_get_contents(base_url(Q_DEFAULT . "surah/surah_" . $numb . ".json")), true);
-        $default_translation_ar = json_decode(file_get_contents(base_url(Q_DEFAULT . "translation/ar/ar_translation_" . $numb . ".json")), true);
-        $default_translation_en = json_decode(file_get_contents(base_url(Q_DEFAULT . "translation/en/en_translation_" . $numb . ".json")), true);
+        $default = json_decode(file_get_contents(clear_base_url(Q_DEFAULT . "surah/surah_" . $numb . ".json")), true);
+        $default_translation_ar = json_decode(file_get_contents(clear_base_url(Q_DEFAULT . "translation/ar/ar_translation_" . $numb . ".json")), true);
+        $default_translation_en = json_decode(file_get_contents(clear_base_url(Q_DEFAULT . "translation/en/en_translation_" . $numb . ".json")), true);
 
-        $kemenag = json_decode(file_get_contents(base_url(Q_KEMENAG . "surah/" . $numb . ".json")), true)[$numb];
+        $kemenag = json_decode(file_get_contents(clear_base_url(Q_KEMENAG . "surah/" . $numb . ".json")), true)[$numb];
 
         $data = [];
         $data['index'] = $default['index'];

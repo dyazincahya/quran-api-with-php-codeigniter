@@ -80,8 +80,8 @@ defined('EXIT__AUTO_MAX')      || define('EXIT__AUTO_MAX', 125);    // highest a
 
 
 //COSTUME CONSTANTA BY KANG-CAHYA.COM
-defined('Q_DEFAULT')           || define('Q_DEFAULT', "public/assets/quran/other/");
-defined('Q_KEMENAG')           || define('Q_KEMENAG', "public/assets/quran/kemenag/");
+defined('Q_DEFAULT')           || define('Q_DEFAULT', "assets/quran/other/");
+defined('Q_KEMENAG')           || define('Q_KEMENAG', "assets/quran/kemenag/");
 defined('THEME')               || define('THEME', "public/assets/bootstrap/");
 defined('IMAGES')              || define('IMAGES', "public/assets/images/");
 defined('VERSION')             || define('VERSION', "V2.2");
