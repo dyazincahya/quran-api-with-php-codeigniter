@@ -93,14 +93,9 @@ define('EVENT_PRIORITY_NORMAL', 100);
  */
 define('EVENT_PRIORITY_HIGH', 10);
 
-/* DYNAMIC BASE URL SETTING */
-$base = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off' ? 'https://'.$_SERVER['HTTP_HOST'].dirname($_SERVER['SCRIPT_NAME']) : 'http://'.$_SERVER['HTTP_HOST'].dirname($_SERVER['SCRIPT_NAME']);
-
-defined('BASE') || define('BASE', $base);
-
 //COSTUME CONSTANTA BY KANG-CAHYA.COM
 defined('Q_DEFAULT')           || define('Q_DEFAULT', "public/assets/quran/other/");
 defined('Q_KEMENAG')           || define('Q_KEMENAG', "public/assets/quran/kemenag/");
 defined('THEME')               || define('THEME', "public/assets/bootstrap/");
 defined('IMAGES')              || define('IMAGES', "public/assets/images/");
-defined('VERSION')             || define('VERSION', "V2.1");
+defined('VERSION')             || define('VERSION', "V2.2");
